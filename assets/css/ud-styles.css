@@ -873,6 +873,10 @@ p {
     text-align: center;
   }
 }
+.ud-video-testamonial {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /* ===== Pricing CSS ===== */
 .ud-pricing {
@@ -1468,6 +1472,7 @@ p {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  justify-content: center;
 }
 
 .ud-footer .shape {
@@ -2609,5 +2614,19 @@ p {
     font-size: 14px;
     padding: 10px 20px;
   }
+}
+.color {
+  color: orange;
+}
+.testis-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.testis-item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 15px;
 }
 /*# sourceMappingURL=ud-styles.css.map */
